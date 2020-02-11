@@ -10,6 +10,8 @@
     <meta name="description" content="Basic HTML example">
     <meta name="twitter:" content="THis is a description for twitter">
     <meta name="keywords" content="HTML, CSS, JS, Basic example">
+    <link rel="stylesheet" href="css/style.css ">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <!-- This the body of my website -->
   <body>
@@ -23,62 +25,64 @@
         </ul>
       </nav>
     </header>
+
+  <div class="container">
     <section>
+  <!-- to create sidebars -->
+       <aside>
+         <ul>
+           <li>item 1</li>
+           <li>item 2</li>
+           <li>item 3</li>
+         </ul>
+         <ol>
+           <li>item 1</li>
+           <li>item 2</li>
+           <li>item 3</li>
+         </ol>
+       </aside>
 
-<!-- to create sidebars -->
-     <aside>
-       <ul>
-         <li>item 1</li>
-         <li>item 2</li>
-         <li>item 3</li>
-       </ul>
-       <ol>
-         <li>item 1</li>
-         <li>item 2</li>
-         <li>item 3</li>
-       </ol>
-     <aside>
+         <!-- we use magazine articles , posts, etc. -->
+       <article id=pb>
+         <h1>Title</h1>
+         <h2>subtitles</h2>
+         <p>
+           <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong>
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+             of Lorem Ipsum
+           </p>
+             <img src="img/prettybackground.jpg" alt="pb" width="350px">
+       </article>
 
-       <!-- we use magazine articles , posts, etc. -->
-     <article>
-       <h1>Title</h1>
-       <h2>subtitles</h2>
-       <p>
-         <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong>
-         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-          an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-           of Lorem Ipsum
-         </p>
-           <img src="img/prettybackground.jpg" alt="pb" width="350px">
-     </article>
-
-    </section>
-
-
-    <section>
-      <address>
-        <ul>
-          <li>Name: Marlee Avril</li>
-          <li>Phone number: 954-790-8920</li>
-          <li>email: marleeavril@gmail.com</li>
-        </ul>
-      </address>
-    </section>
-
-    <table>
-      <tr>
-        <!-- these are table headers -->
-        <th>Human Years</th>
-        <th>Dog Years</th>
-      </tr>
-      <tr>
-        <!-- these are table cells -->
-        <td>1</td>
-        <td>7</td>
-      </tr>
-    </table>
+      </section>
 
 
-  </body>
-</html>
+      <section>
+        <address>
+          <ul>
+            <li>Name: Marlee Avril</li>
+            <li>Phone number: 954-790-8920</li>
+            <li>email: marleeavril@gmail.com</li>
+          </ul>
+        </address>
+      </section>
+    </div>
+
+      <table>
+        <tr>
+          <!-- these are table headers -->
+          <th>Human Years</th>
+          <th>Dog Years</th>
+        </tr>
+        <tr>
+          <!-- these are table cells -->
+          <td>1</td>
+          <td>7</td>
+        </tr>
+      </table>
+
+
+    </body>
+  </html>
