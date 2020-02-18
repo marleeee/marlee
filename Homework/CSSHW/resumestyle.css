@@ -4,13 +4,14 @@ body {
 
 h1
 {
-  color: red;
+  color: green;
   font-family: 'Bebas Neue';
 }
 
 /* this is a class */
 .container
 {
+  font-family: 'Lacquer', sans-serif;
   margin: auto;
   padding: 8px;
   background-color: rgb(247, 221, 229);
@@ -20,18 +21,19 @@ h1
 }
 
 .container h1{
-  font-size: 10em;
+  font-size: 8em;
 }
 
 .sidebar {
-  float: left;
+  float: right;
   margin: auto;
   margin-left: 20px;
   padding: 20px;
   background-color: rgb(199, 218, 222);
   width: 25%;
   box-shadow: 10px 15px 5px 5px rgb(141, 145, 127);
-  border-radius: 8px
+  border-radius: 8px;
+  animation: 3s linear 1s infinite running slideine;
 }
 
 .navigation {
@@ -53,7 +55,7 @@ h1
   width: 10%;
 }
 
-.horizontalLine li a {
+.horizontalLine li a  {
   color: gray;
   text-decoration: none;
   font-family: sans-serif;

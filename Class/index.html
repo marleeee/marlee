@@ -12,39 +12,43 @@
     <meta name="keywords" content="HTML, CSS, JS, Basic example">
     <link rel="stylesheet" href="css/style.css ">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+    <meta name="viewport" content="initial-scale=1">
   </head>
   <!-- This the body of my website -->
   <body>
     <!-- This is my header -->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontalLine">
           <li> <a href="https://github.com/GuzmanJose/Weblab">GithubClass </a> </li>
-          <li> <a href="https://welcome.miami.edu/">UM</a> </li>
+          <li> <a href="Class6-1/transitions.html">Class 6.1 </a> </li>
           <li> <a href="https://genius.com/">Genius</a> </li>
         </ul>
       </nav>
     </header>
 
+    <aside class="sidebar">
+      <h3> Sidebar </h3>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+      <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ol>
+    </aside>
+
   <div class="container">
     <section>
+      <h1>Title</h1>
   <!-- to create sidebars -->
-       <aside>
-         <ul>
-           <li>item 1</li>
-           <li>item 2</li>
-           <li>item 3</li>
-         </ul>
-         <ol>
-           <li>item 1</li>
-           <li>item 2</li>
-           <li>item 3</li>
-         </ol>
-       </aside>
 
          <!-- we use magazine articles , posts, etc. -->
        <article id=pb>
-         <h1>Title</h1>
          <h2>subtitles</h2>
          <p>
            <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong>
@@ -53,13 +57,14 @@
             typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
              of Lorem Ipsum
            </p>
-             <img src="img/prettybackground.jpg" alt="pb" width="350px">
+             <img src="img/prettybackground.jpg" alt="pb" width="350">
        </article>
 
       </section>
 
 
       <section>
+        <h3>because i had to add a heading</h3>
         <address>
           <ul>
             <li>Name: Marlee Avril</li>
