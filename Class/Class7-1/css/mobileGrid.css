@@ -110,6 +110,8 @@ background-color: pink;
 {
   width: 100%;
   height: 100vh;
+  display: grid;
+  grid-template-rows: 15% 25% 50% 10%;
   /* Display the grids in a friendly mobile version */
 
 }
@@ -136,8 +138,11 @@ background-color: pink;
 
 .smallGrid
 {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin: 0%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 
 /* Display your smaller grid with just rows */
 
